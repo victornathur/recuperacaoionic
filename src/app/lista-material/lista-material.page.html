@@ -5,9 +5,17 @@
 </ion-header>
 
 <ion-content>
+
+    <ion-item *ngFor="let material of materials">
+        <ion-label>
+          <h2>{{material.nome}}</h2>
+        </ion-label>
+    </ion-item>
+
   <ion-fab (click)="modal()" class="button-native" vertical="bottom" horizontal="end">
     <ion-fab-button>
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>
+
 </ion-content>
