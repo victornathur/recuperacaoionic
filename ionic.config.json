@@ -1,0 +1,7 @@
+{
+  "name": "recuperacao",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
